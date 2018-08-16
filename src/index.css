@@ -1,0 +1,73 @@
+nav .nav-wrapper {
+  max-width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 48px 0;
+}
+
+section#footer {
+  padding: 24px 0;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+p {
+  font-size: 16px;
+}
+
+.stat p {
+  text-transform: uppercase;
+}
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+}
+.stat {
+  border: 1px solid grey;
+  border-left: 1px solid grey;
+  width: calc(100% * (1/2));
+  padding: 32px;
+  text-align: center;
+}
+.counter {
+  font-size: 32px;
+}
+
+
+
+
+#hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero .container {
+  height: 90vh;
+}
+
+#features .material-icons {
+  font-size: 50px;
+}
+
+
+.flex-dir-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.m-r-16 {
+  margin-right: 16px;
+}
